@@ -1,0 +1,74 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&display=swap');
+
+.font-family{
+    font-family: 'EB Garamond', serif !important; 
+}
+/* header banner styles start */
+.header-bg{
+    position: relative;
+    width: 1170px;
+    margin-top: 48px;
+    max-width: 1280px;
+   margin-left: auto;
+   margin-right: auto;
+}
+.overly{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    color: aliceblue;
+}
+.header-btn{
+    position: absolute;
+    top: 60%;
+    left: 33%;
+    
+}
+
+@media screen and (max-width:576px) {
+    .header-bg img {
+      width: 100%;
+      max-width: 576px;
+      height: 100vh;
+      background-size: cover;
+    }
+    .header-bg{
+        width: 100%;
+        height: 100vh;
+    }
+    .overly{
+        position: absolute;
+        top: 30%;
+        left: 0%;
+        color: aliceblue; 
+    }
+
+    .header-btn{
+        position: absolute;
+        top: 55%;
+        left: 10%;
+        
+    }
+  }
+/* header styles end */
+
+
+
+/* carousel items styles start */
+.carousel-img-1{
+background-image: url("../images/judges-gavel-scale-justice-black-table.jpg");
+height: 100vh;
+   
+}
+.carousel-img-2{
+    background-image: url("../images/lady-justice-law-library-concept.jpg");
+    height: 100vh;
+}
+.carousel-img-3{
+background-image: url("../images/law-justice-concept-dark-background.jpg");
+height: 100vh;
+  
+}
+
+/* carousel items styles end */
